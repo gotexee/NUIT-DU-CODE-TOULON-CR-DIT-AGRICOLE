@@ -1,0 +1,96 @@
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f9f4 0%, #ffffff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home-button:hover {
+  position: absolute;
+  transform: scale( 1.5 );
+}
+
+.home-subtitle {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #00804E;
+  margin-bottom: 40px;
+  text-align: center;
+} 
+
+.home-content {
+  max-width: 900px;
+  text-align: center;
+  background: white;
+  padding: 80px 60px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 128, 78, 0.1);
+}
+
+.home-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #00804E;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+
+.home-button {
+  background: #00804E;
+  color: white;
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 128, 78, 0.3);
+}
+
+.home-button:hover {
+  background: #006B42;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 128, 78, 0.4);
+}
+
+.home-button:active {
+  transform: translateY(-1px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 2.5rem;
+  }
+  
+  .home-content {
+    padding: 50px 30px;
+  }
+  
+  .home-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-title {
+    font-size: 2rem;
+  }
+  
+  .home-content {
+    padding: 40px 20px;
+  }
+}
